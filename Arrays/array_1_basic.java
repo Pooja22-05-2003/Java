@@ -1,4 +1,4 @@
-package JavaBasics.Arrays;
+package Arrays;
 import java.util.Scanner;
 //Array is a collection of similar type of data.
 public class array_1_basic {
