@@ -1,3 +1,4 @@
+// JDK(Java Development Kit)  -> JRE(Java runtime environment) -> JVM (Java Virtual Machine)
 package Java_Basics;
 
 public class Basics {
