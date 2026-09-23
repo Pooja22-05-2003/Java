@@ -98,3 +98,18 @@ class Solution {
 }
 
 //Best soltuion (Space+tc) TC:O(n), SC=O(1)
+
+class Solution {
+    int a=1;
+    int b=1;
+    int c=0;
+    public int climbStairs(int n) {
+        if(n==a|n==b) return 1;
+        for(int i=2;i<=n;i++){
+            c=a+b;
+            a=b;
+            b=c;
+        }
+        return b;
+    }
+}
